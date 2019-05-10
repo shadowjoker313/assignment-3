@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color:aliceblue;
+    
+}
+
+/*------menu------*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+nav li {
+    float:left;
+}
+nav li a {
+    display: inline-block;
+    color: azure;
+    text-align: center;
+    padding: 0.9375rem;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: black;
+}
+
+/*------Menu Icon for mobile view ------*/
+#nav_icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+    background: black url("../images/menu-icon.png") center;
+}
+
+a:hover#nav_icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+/*------Title--------*/
+.page_header{
+    background-color: bisque;
+    padding: 1px;
+}
+.page_header h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+/*--------Main Body---------*/
+.main_content{
+    padding-left: 20PX;
+    width: 100%;
+    border-color: black;
+    
+}
+figure{
+    text-align: center;
+}
+
+.intro{
+    margin-left: 10px;
+}
+.intro_column img{
+    height: 100%; width: 100%; object-fit: contain;
+    display: none;
+}
+.intro_column figure{
+    display: none;
+}
+.intro_column{
+    float: left;
+    padding:35px;
+    max-width: 65%;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.intro_column h2{
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    
+}
+ .intro_aside{
+    float: right;
+    padding-top: 30px;
+    width: 35%; 
+     max-height: 500px;
+    
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.intro_aside img{
+    height: 100%; width: 100%; object-fit: contain;
+}
+
+.heritage_column{ 
+    float: left;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.heritage_column img{
+    height: 30%;width:30%;
+    object-fit: contain;
+    padding-right: 30px;
+}
+.heritage_sub1{
+    float: left;
+    max-width: 50%;
+}
+.heritage_sub1 img{
+    width: 60%;
+    height: 60%;
+}
+.heritage_sub2{
+    float:left;
+    max-width: 50%;
+}
+.heritage_sub2 img{
+    width:60%;
+    height: 60%;
+}
+.canberra_column{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.orgin_class{
+    float: left;
+}
+.canberra_class{
+    float:left;
+}
+ol.abcd{
+    list-style-type: lower-alpha;
+}
+.middle_heading{
+    text-align: center;
+}
+.conversation_font{
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+.conversation_start{
+    color: crimson;
+    font-size: 27px;
+}
+.blockquote_style_red{
+ font-size: 20px;
+    width: auto;
+    margin: 25px;
+    font-family: 'Kalam', cursive;
+    padding:25px 30px 25px 75px;
+    border-left: 8px solid;
+    border-left-color:firebrick;
+    line-height:1.7;
+    position: relative;
+    background:#e0dbdb; 
+}
+.blockquote_style_red::before{
+    font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+.blockquote_style_red span{
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.blockquote_style_blue{
+ font-size: 20px;
+    width: 80%;
+    margin: 25px;
+    font-family: 'Kalam', cursive;
+    padding:25px 30px 25px 75px;
+    border-left: 8px solid;
+    border-left-color:cadetblue;
+    line-height:1.7;
+    position: relative;
+    background:#e0dbdb; 
+}
+.blockquote_style_blue::before{
+    font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+.blockquote_style_blue span{
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.blockquote_style_green{
+ font-size: 20px;
+    width: 80%;
+    margin: 25px;
+    font-family: 'Kalam', cursive;
+    padding:25px 30px 25px 75px;
+    border-left: 8px solid;
+    border-left-color:darkolivegreen;
+    line-height:1.7;
+    position: relative;
+    background:#e0dbdb; 
+}
+.blockquote_style_green::before{
+    font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+.blockquote_style_green span{
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.blockquote_style_yellow{
+ font-size: 20px;
+    width: 80%;
+    margin: 25px;
+    font-family: 'Kalam', cursive;
+    padding:25px 30px 25px 75px;
+    border-left: 8px solid;
+    border-left-color:#ddc50d;
+    line-height:1.7;
+    position: relative;
+    background:#e0dbdb; 
+}
+.blockquote_style_yellow::before{
+    font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+.blockquote_style_yellow span{
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.earlyyears{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    column-count: 2;
+    column-gap: 35px;
+    column-rule: 2px solid burlywood;
+}
+.earlyyears h2{
+    column-span: all;
+}
+.parties{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid burlywood;
+}
+.parties h2{
+    column-span: all;
+    text-decoration: underline;
+}
+.patterns_class{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 5px solid;
+    border-color: burlywood;
+    list-style-position: inside;
+}
+.residents_class{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid burlywood;
+    column-rule-style: dashed;
+}
+.residents_class h2 {
+    column-span: all;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*--------------------table for orgin section--------------------*/
+
+.orgintable{
+    border: 5px solid black;
+    width: 100%;
+    table-layout: fixed;
+
+}
+.orgintable_head{
+    background-color: darksalmon;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.orgintable td{
+    border-right: 2px solid black;
+    width: 33.33%;
+    vertical-align: top;
+}
+.orgintable th{
+    border: 2px solid black;
+}
+
+/*--------------Refernce text--------------*/
+.reference{
+    font-style: italic;
+}
+.rightalign{
+    text-align: right;
+    display: block;
+    font-style: italic;
+}
+.twocolumn{
+    column-count: 2;
+}
+.hidden_class{
+    display: none;
+}
+.pastpresent_class{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-color: coral;
+}
+.pastpresent_class h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.converstion{
+    padding: 50px;
+    border: 3px solid black;
+}
+span.right_conv{
+    text-align: right;
+}
+span.left_conv{
+    text-align: left;
+}
+.footer_class{
+    position: fixed;
+    left: 0;
+  bottom: 0;
+    width: 100%;
+    background-color: darkkhaki;
+    text-align: center;
+}
+.link_focus:focus{
+    
+    outline: 5px solid red;   
+}
+}
+
+/*........iphone 6/7/8............*/
+@media only screen 
+and (min-device-width : 375px) 
+    and (max-device-width : 667px){
+      
+        .heritage_sub1{
+            margin-left: 5px;
+            margin-right: 5px;
+    text-align: center;
+    max-width: 100%;
+}
+        .heritage_sub1 img{
+    
+}
+        .heritage_sub2{
+    float:left;
+    max-width: 100%;
+}
+        .heritage_sub2 img{
+    width: 60%;
+    height: 60%;
+}
+        body{
+            width: 100vw;
+        }
+        
+        .twocolumn{
+    column-count: 1;
+}
+        .twocolumn img{
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+        .parties{
+            column-count: 1;
+        }
+        
+        
+        
+        
+        /*-----Mobile Menu------*/
+       
+        #nav_icon {
+
+		display:inline-block;
+
+	}
+        
+        
+        nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 80px;
+		top: 75px;
+		width: 50%;
+		
+
+	}
+        nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+        background: #bc9d54;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+        
+        /*-----Intro section----*/
+        .intro_aside{
+            display: none;
+        }
+        .intro_column{
+    max-width: 100%;
+    
+        }
+        .intro_column img{
+            display: block;
+        }
+        .intro_column figure{
+            display: block;
+        }
+        .intro_column figcaption{
+            font-size: 15px;
+        }
+        /*-----------adjusting dot points from the table----------------*/
+        .orgin_class li{
+            position: relative; left: -20px;
+            margin-top: 25px;
+        }
+        
+        .patterns_class{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 50px;
+    margin-top: 10x;
+    margin-left: 10px;
+    margin-right: ftpx;
+}
+        .residents_class{
+    column-count: 2;    
+}
+        
+}
+
+/*........ipad and tablets............*/
+@media only screen 
+and (min-device-width : 768px) {
+    
+}
+.twocolumn{
+    column-count: 1;
+    text-align: center;
+}
+.orgin_class li{
+            position: relative; left: -20px;
+            margin-top: 25px;
+        }
+
+
